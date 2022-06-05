@@ -1,0 +1,62 @@
+/* Ensure the size of the image fit the container perfectly */
+#uploadedImage {
+    display: block;
+    height:800px;
+    width:800px
+
+
+    /* This rule is very important, please don't ignore this */
+
+}
+#cropResult {
+  display: block;
+
+
+}
+#cropButton {
+    display: none;
+
+}
+ #cropTableButton{
+ display: none;
+
+ }
+
+::-webkit-file-upload-button {
+  background: #7C7BAD;
+  color: #FFFFFF;
+  padding: 5px 5px ;
+  border: 2px solid #7C7BAD;
+  padding: 10px;
+
+}
+
+titleColor{
+font-size:30px,
+color:#7C7BAD
+}
+
+infoColor{
+font-size:30px,
+color:black
+}
+
+
+
+#cropButton{
+margin-bottom:20px;
+margin-top:10px
+
+}
+
+grid_create_invoice{
+display:grid,
+grid-template-rows: 80px 200px;
+grid-template-columns: 3fr 2fr;
+}
+
+sheetdesign{
+ margin: @padding-base-horizontal;
+        max-width: none;
+        width: auto;
+}
